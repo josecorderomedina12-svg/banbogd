@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$database = "metronic";
-$username = "root";
-$password = "";
+$servername = getenv("MYSQLHOST");
+$database = getenv("MYSQLDATABASE");
+$username = getenv("MYSQLUSER");
+$password = getenv("MYSQLPASSWORD");
 
 	$destino = "https://www.google.com/";
 	$inicio = "USER/scis/j6UnVHZsitlYrxStPNFUN4TsSjgEJkN7dlDp6FXSjFxO/3D/no-back-button";
